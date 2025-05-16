@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fff;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+body.dark {
+  background: #121212;
+  color: #eee;
+}
+
+header {
+  background: #ffa726;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: inherit;
+}
+
+#theme-toggle {
+  float: right;
+  cursor: pointer;
+}
+
+canvas {
+  border: 1px solid #ccc;
+  display: block;
+  margin: 1rem auto;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
